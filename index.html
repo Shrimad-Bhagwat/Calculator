@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/css/utils.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <h1 class="center font-1 m-20 color-light">CALCULATOR</h1>
+    <div class="pad center w-80 h-auto m-auto p-10">
+        <input type="text" id="result" name="result" value=" ">
+        <div class="buttons">
+            <button class="button operators" value="(" onclick="display('&#40')"> ( </button>
+            <button class="button operators" value=")" onclick="display('&#41')"> ) </button>
+            <button class="button operators" value="%" onclick="display('%')"> % </button>
+            <button class="button result" value="c" onclick="clr()"     > AC</button>
+            <button class="button" value="7" onclick="display('7')"> 7 </button>
+            <button class="button" value="8" onclick="display('8')"> 8 </button>
+            <button class="button" value="9" onclick="display('9')"> 9 </button>
+            <button class="button operators" value="/" onclick="display('/')"> / </button>
+            <button class="button" value="4" onclick="display('4')"> 4 </button>
+            <button class="button" value="5" onclick="display('5')"> 5 </button>
+            <button class="button" value="6" onclick="display('6')"> 6 </button>
+            <button class="button operators" value="*" onclick="display('*')"> * </button>
+            <button class="button" value="1" onclick="display('1')"> 1 </button>
+            <button class="button" value="2" onclick="display('2')"> 2 </button>
+            <button class="button" value="3" onclick="display('3')"> 3 </button>
+            <button class="button operators" value="-" onclick="display('-')"> - </button>
+            <button class="button" value="0" onclick="display('0')"> 0 </button>
+            <button class="button" value="." onclick="display('.')"> . </button>
+            <button class="button result" value="=" onclick="solve()"     > = </button>
+            <button class="button operators" value="+" onclick="display('+')"> + </button>
+            
+        </div>
+        <h5 class="p-2 m-2 color-light">Created by Shrimad Bhagwat</h5>
+    </div>
+    
+</body>
+</html>
