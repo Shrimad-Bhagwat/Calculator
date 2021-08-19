@@ -12,7 +12,7 @@ input{
     border:none;
 }
 .pad{
-    max-width: 300px;
+    max-width: 375px;
     background-color: rgba(70, 70, 70, 0.5);
     border-radius: 10px;
 }
